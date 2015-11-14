@@ -1,4 +1,4 @@
-# Prayer - Bukkit
+# prayer-bukkit
 
 ### Minecraft Prayer Plugin for Bukkit
 
@@ -30,10 +30,10 @@ Visit the official **Bukkit Project Page** for more information: http://dev.bukk
 * Supports permissions and configurable settings such as cooldowns, grant durations, world restrictions, and more.
 
 ###Basic Altar
-![alt tag](http://millan.info/img/prayer/altar1.jpg)
+![](http://millan.info/img/prayer/altar1.jpg)
 
 ###Nether Altar
-![alt tag](http://millan.info/img/prayer/altar2.jpg)
+![](http://millan.info/img/prayer/altar2.jpg)
 
 ###End Altar
-![alt tag](http://millan.info/img/prayer/altar3.jpg)
+![](http://millan.info/img/prayer/altar3.jpg)
