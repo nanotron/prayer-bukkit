@@ -1,0 +1,152 @@
+name: Prayer
+main: com.ernestmillan.prayer.Prayer
+version: 1.2.3
+description: Use the pray, bless or curse command to issue requests to the gods.
+author: Ernest Millan, NanotronPrime 
+website: http://dev.bukkit.org/bukkit-plugins/prayer/
+
+commands:
+  pray:
+    description: Use the pray or bless commands to issue prayer requests to the gods.
+    aliases: [prayer, bless]
+    usage: Type '/pray help or /bless help' for a list of options.
+    permission: prayer.pray
+    permission-message: Thou dost not have permission to issue this command.
+  curse:
+    description: Use the curse command to issue requests to harm other players.
+    usage: Type '/curse help' for a list of options.
+    permission: prayer.curse
+    permission-message: Thou dost not have permission to issue this command.
+      
+permissions:
+  prayer.*:
+    description: Provides access to all Prayer commands.
+    children:
+      prayer.pray: true
+      prayer.pray.air: true
+      prayer.pray.ally: true
+      prayer.pray.clearsky: true
+      prayer.pray.crops: true
+      prayer.pray.day: true
+      prayer.pray.firehand: true
+      prayer.pray.flight: true
+      prayer.pray.food: true
+      prayer.pray.giant: true
+      prayer.pray.health: true
+      prayer.pray.help: true
+      prayer.pray.home: true
+      prayer.pray.info: true
+      prayer.pray.invisibility: true
+      prayer.pray.jump: true
+      prayer.pray.lightning: true
+      prayer.pray.minions: true
+      prayer.pray.nightvision: true
+      prayer.pray.op: true
+      prayer.pray.speed: true
+      prayer.pray.storm: true
+      prayer.pray.strength: true
+      prayer.pray.theforce: true
+      prayer.curse: true
+      prayer.curse.fire: true
+      prayer.curse.flood: true
+      prayer.curse.foes: true
+      prayer.curse.health: true
+      prayer.curse.hunger: true
+      prayer.curse.smite: true 
+      prayer.curse.waters: true 
+  prayer.pray:
+    default: true
+    description: The default pray command
+  prayer.pray.air:
+    default: true
+    description: Grants underwater breathing.
+  prayer.pray.ally:
+    default: true
+    description: Sends down a guardian Iron Golem.  
+  prayer.pray.clearsky:
+    default: true
+    description: Stops a storm.
+  prayer.pray.crops:
+    default: true
+    description: Ripens crops near a player.  
+  prayer.pray.day:
+    default: true
+    description: Resets the day to morning. 
+  prayer.pray.firehand:
+    default: true
+    description: Ignites a mob when struck by player.    
+  prayer.pray.flight:
+    default: true
+    description: Provides flight.     
+  prayer.pray.food:
+    default: true
+    description: Restores your hunger meter.  
+  prayer.pray.giant:
+    default: true
+    description: Sends down a giant. (Creative Only)    
+  prayer.pray.help:
+    default: true
+    description: Provides info on how to use the /pray command.
+  prayer.pray.health:
+    default: true
+    description: Restores your health.
+  prayer.pray.home:
+    default: true
+    description: Sends player to their bed-spawn location. World-spawn location will be used otherwise.
+  prayer.pray.info:
+    default: true
+    description: Provides info relates to one's prayer quota.  
+  prayer.pray.invisibility:
+    default: true
+    description: Activates the Invisibility enchantment.  
+  prayer.pray.jump:
+    default: true
+    description: Provides enhanced jumping.       
+  prayer.pray.lightning:
+    default: true
+    description: Strikes lightning wherever your crosshair is pointing.  
+  prayer.pray.minions:
+    default: true
+    description: Sends down a pack of tamed wolves or cats.     
+  prayer.pray.nightvision:
+    default: true
+    description: Activates the Night Vision enchantment.      
+  prayer.pray.op:
+    default: true
+    description: Smites any user who dare pray for such power.
+  prayer.pray.speed:
+    default: true
+    description: Provides enhanced running.
+  prayer.pray.storm:
+    default: true
+    description: Creates a storm.   
+  prayer.pray.strength:
+    default: true
+    description: Provides enhanced offensive and defensive strength.
+  prayer.pray.theforce:
+    default: true
+    description: Breaks blocks at your target and thrusts any nearby mobs away.
+  prayer.curse:
+    default: true
+    description: The default curse command  
+  prayer.curse.fire:
+    default: true
+    description: Sets the recipient on fire.
+  prayer.curse.flood:
+    default: true
+    description: Creates a flood around the target player. 
+  prayer.curse.foes:
+    default: true
+    description: Sends the recipient a set of monsters.
+  prayer.curse.health:
+    default: true
+    description: Lowers the recipient's health meter.
+  prayer.curse.hunger:
+    default: true
+    description: Lowers the recipient's hunger meter.    
+  prayer.curse.smite:
+    default: true
+    description: Smites the recipient with lightning.  
+  prayer.curse.waters:
+    default: true
+    description: Turns the waters near a player to fire or other material.

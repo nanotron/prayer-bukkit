@@ -1,0 +1,82 @@
+# config.yml for Prayer, Copyright 2014 Ernest Millan. http://dev.bukkit.org/server-mods/prayer/. All times are in milliseconds. Delete this file and reload server to reset.
+deity-name-text: the gods
+enable-prayer-for-others: true
+enable-curse-command: true
+enable-verbose-logging: false
+enable-dev-logging: false
+enable-white-list: false
+allow-non-operator-prayer: true
+allow-unlimited-operator-prayer: true
+allow-prayer-in-creative: true
+allow-unlimited-prayer-in-creative: true
+allow-prayer-in-normal-world: true
+allow-prayer-in-nether: true
+allow-prayer-in-end: true
+allow-villager-influence: true
+allow-altar-influence: true
+allow-altar-type-basic: true
+allow-altar-type-nether: true
+allow-altar-type-end: true
+allow-skull-influence: true
+allow-prayer-for-others-across-worlds: true
+require-altar-for-prayer: false
+require-item-in-hand-for-prayer: true
+item-in-hand-for-prayer-name: book
+enable-fixed-prayer-session-quota: false
+fixed-prayer-session-quota: 10
+enable-cooldown-between-granted-prayers: true
+cooldown-duration-of-granted-prayer: 60000
+enable-cooldown-between-attempted-prayers: false
+cooldown-duration-of-attempted-prayer: 5000
+reset-granted-cooldown-on-sleep: true
+reset-granted-cooldown-on-death: true
+excessive-prayer-damage-level: 12
+request-op-damage-level: 10
+duration-of-air: 180000
+duration-of-firehand: 180000
+duration-of-flight: 180000
+duration-of-invisibility: 180000
+duration-of-jump: 180000
+duration-of-nightvision: 180000
+duration-of-speed: 180000
+duration-of-storm: 180000
+duration-of-strength: 180000
+option-minions-amount: 5
+option-storm-fish-amount: -1
+option-firehand-duration-of-fire-dealt: 60000
+enable-player-move-event: true
+enable-altar-creation-lightning-effect: true
+curse-waters-to-material: fire
+available-prayer-options:
+  air: true
+  ally: true
+  clearsky: true
+  crops: true
+  day: true
+  firehand: true
+  flight: true
+  food: true
+  giant: true
+  health: true
+  help: true
+  home: true
+  info: true
+  invisibility: true
+  jump: true
+  lightning: true
+  minions: true
+  nightvision: true
+  op: true
+  shelter: true
+  speed: true
+  storm: true 
+  strength: true 
+  theforce: true
+available-curse-options:
+  fire: true
+  flood: true
+  foes: true
+  health: true
+  hunger: true
+  smite: true
+  waters: true
