@@ -8,6 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * Initializes configuration related values and settings.
+ * @author Ernest Millan
  */
 public class PrayerConfig {
 	

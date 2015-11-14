@@ -10,7 +10,8 @@ import org.bukkit.entity.Player;
 
 /**
  * Constructs shelter around a player.
- */
+ * @author Ernest Millan
+*/
 public class PrayerShelter {
 	
 	private Player player;

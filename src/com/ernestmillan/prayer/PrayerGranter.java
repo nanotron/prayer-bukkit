@@ -31,6 +31,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 /**
  * Processes prayer request grant based on odds and XP levels.
+ * @author Ernest Millan
  */
 public class PrayerGranter {
 	

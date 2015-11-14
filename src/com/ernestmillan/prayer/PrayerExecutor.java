@@ -17,6 +17,7 @@ import org.bukkit.entity.Player;
 
 /**
  * Executes the pray command. Validates pray attempts and decides whether to move onto PrayerGranter.
+ * @author Ernest Millan
  */
 public class PrayerExecutor implements CommandExecutor {
 	

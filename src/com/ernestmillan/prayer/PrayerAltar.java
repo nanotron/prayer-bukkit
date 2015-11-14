@@ -13,6 +13,7 @@ import org.bukkit.entity.Player;
 
 /**
  * Determines if an Altar is valid and if player is near one.
+ * @author Ernest Millan
  */
 public class PrayerAltar {
 	

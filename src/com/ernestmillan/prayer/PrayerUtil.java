@@ -5,6 +5,10 @@ import java.util.logging.Logger;
 
 import org.bukkit.entity.Player;
 
+/*
+* @author Ernest Millan
+*/
+
 public class PrayerUtil {
 
 	public static String getPlayerDirection(Player player) {

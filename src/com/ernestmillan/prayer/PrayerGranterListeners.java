@@ -12,6 +12,7 @@ import org.bukkit.event.player.PlayerBedLeaveEvent;
 
 /**
  * The listeners which affect both a granter or a grantee.
+ * @author Ernest Millan
  */
 public class PrayerGranterListeners implements Listener {
 	

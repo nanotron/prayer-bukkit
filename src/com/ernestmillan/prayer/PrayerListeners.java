@@ -10,6 +10,7 @@ import org.bukkit.event.player.PlayerMoveEvent;
 
 /**
  * Global listeners.
+ * @author Ernest Millan
  */
 public class PrayerListeners implements Listener {
 	
