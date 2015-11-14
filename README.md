@@ -2,7 +2,7 @@
 
 ### Minecraft Prayer Plugin for Bukkit
 
-![](http://millan.info/img/prayer/prayer_4.png =400px)
+<img src="http://millan.info/img/prayer/prayer_4.png" width="400px" />
 Use the **pray**, **bless** and **curse** commands in-game to issue prayer requests to the gods for special abilities and powers.
 
 Visit the official **Bukkit Project Page** for more information: http://dev.bukkit.org/bukkit-plugins/prayer/
